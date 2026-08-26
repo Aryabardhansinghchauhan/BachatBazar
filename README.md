@@ -142,7 +142,7 @@ Open `http://localhost:5173` in your browser.
 ```env
 PORT=5000
 NODE_ENV=development
-MONGODB_URI=mongodb://127.0.0.1:27017/bachat_bazar
+MONGODB_URI=Your_Mongo_DB_URL/bachat_bazar
 JWT_SECRET=your_super_secret_jwt_key
 CLIENT_URL=http://localhost:5173
 DATA_SERVICE_URL=http://localhost:8000
@@ -157,7 +157,7 @@ SMTP_PASS=your_gmail_app_password
 ### `data-service/.env`
 ```env
 PORT=8000
-MONGODB_URI=mongodb://127.0.0.1:27017/bachat_bazar
+MONGODB_URI=Your Mongo_DB_URL/bachat_bazar
 FLIPKART_AFFILIATE_ID=your_id_here
 FLIPKART_AFFILIATE_TOKEN=your_token_here
 ```
